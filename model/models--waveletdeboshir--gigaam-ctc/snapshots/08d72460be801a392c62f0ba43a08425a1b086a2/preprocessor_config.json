@@ -1,0 +1,18 @@
+{
+  "chunk_length": 30,
+  "feature_extractor_type": "GigaAMFeatureExtractor",
+  "feature_extractor_class": "GigaAMFeatureExtractor",
+  "feature_size": 64,
+  "hop_length": 160,
+  "n_samples": 480000,
+  "padding_side": "right",
+  "padding_value": 0.0,
+  "return_attention_mask": true,
+  "sampling_rate": 16000,
+  "auto_map": {
+    "AutoFeatureExtractor": "gigaam_transformers.GigaAMFeatureExtractor",
+    "AutoProcessor": "gigaam_transformers.GigaAMProcessor"
+  },
+  "processor_class": "GigaAMProcessor",
+  "model_type": "gigaam-ctc"
+}

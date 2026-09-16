@@ -1,0 +1,64 @@
+{
+    "auto_map":{
+        "AutoConfig": "gigaam_transformers.GigaAMConfig",
+        "AutoModel": "gigaam_transformers.GigaAMCTCHF",
+        "AutoModelForCTC": "gigaam_transformers.GigaAMCTCHF",
+        "AutoProcessor": "gigaam_transformers.GigaAMProcessor",
+        "AutoTokenizer": "gigaam_transformers.GigaAMCTCTokenizer",
+        "AutoFeatureExtractor": "gigaam_transformers.GigaAMFeatureExtractor"
+    },
+    
+    "encoder": {
+        "feat_in": 64,
+        "n_layers": 16,
+        "d_model": 768,
+        "subsampling_factor": 4,
+        "ff_expansion_factor": 4,
+        "self_attention_model": "rotary",
+        "pos_emb_max_len": 5000,
+        "n_heads": 16,
+        "conv_kernel_size": 31,
+        "flash_attn": false
+    },
+    "head": {
+        "feat_in": 768,
+        "num_classes": 34
+    },
+    "labels": [
+        " ",
+        "а",
+        "б",
+        "в",
+        "г",
+        "д",
+        "е",
+        "ж",
+        "з",
+        "и",
+        "й",
+        "к",
+        "л",
+        "м",
+        "н",
+        "о",
+        "п",
+        "р",
+        "с",
+        "т",
+        "у",
+        "ф",
+        "х",
+        "ц",
+        "ч",
+        "ш",
+        "щ",
+        "ъ",
+        "ы",
+        "ь",
+        "э",
+        "ю",
+        "я"
+    ],
+    "blank_id": 33,
+    "model_type": "gigaam-ctc"
+}

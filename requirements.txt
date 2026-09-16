@@ -1,0 +1,11 @@
+transformers==4.49.0
+accelerate>=1.5.2
+transformers
+keyboard
+pyperclip
+pyautogui
+pyinstaller
+huggingface_hub
+torch
+torchvision
+torchaudio

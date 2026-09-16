@@ -1,0 +1,26 @@
+{
+  "added_tokens_decoder": {
+    "33": {
+      "content": "[BLANK]",
+      "lstrip": true,
+      "normalized": false,
+      "rstrip": true,
+      "single_word": false,
+      "special": false
+    }
+  },
+  "bos_token": null,
+  "clean_up_tokenization_spaces": false,
+  "do_lower_case": false,
+  "eos_token": null,
+  "model_max_length": 1000,
+  "pad_token": "[BLANK]",
+  "replace_word_delimiter_char": " ",
+  "target_lang": null,
+  "tokenizer_class": "GigaAMCTCTokenizer",
+  "unk_token": "[BLANK]",
+  "word_delimiter_token": " ",
+  "auto_map": {
+    "AutoTokenizer": ["gigaam_transformers.GigaAMCTCTokenizer", null]
+  }
+}
